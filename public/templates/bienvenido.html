@@ -1,0 +1,22 @@
+<h4>Bienvenido al administrador del banco de preguntas de la Trivia.</h4>
+<h3></h3>
+<div class="row">
+	<table>
+        <thead>
+          <tr>
+              <th data-field="id">Tematica</th>
+              <th data-field="name">Pregunta</th>
+              <th data-field="price">Respuesta</th>
+          </tr>
+        </thead>
+
+        <tbody ng-repeat="pre in objBDPregunta">
+          <tr>
+            <td>{{pre.tema}}</td>
+            <td>{{pre.enunciado}}</td>
+            <td>{{pre.respuesta}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+<a href="#/formPreguntas">Ir a preguntas</a>

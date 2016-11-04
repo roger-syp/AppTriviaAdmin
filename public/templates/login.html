@@ -1,0 +1,27 @@
+<div style="background-color: white;">
+<br>
+<center>
+	<img src="img/logo-handlom.jpg">
+</center>
+<br>
+<div style="width: 90%; margin: 5% 5% 5% 5%;background-color: white;" >
+	<form>
+	  <div class="row">
+        <div class="input-field col s12">
+          <input ng-model="login.correo" id="correoo" type="email" class="validate">
+          <label for="correoo">Correo</label>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="input-field col s12">
+          <input ng-model="login.contrasena" id="contrasenaa" type="password" class="validate">
+          <label for="contrasenaa">Contraseña</label>
+        </div>
+      </div>
+      <center>
+      	<button style="color: white;" class="waves-effect blue-grey darken-4 btn" ng-click="cancelarForm()">Cancelar</button>
+      	<button style="color: white;" class="waves-effect blue-grey darken-4 btn" ng-click="iniciarSesion(login)">Aceptar</button>
+      </center>      
+	</form>
+</div>
+</div>

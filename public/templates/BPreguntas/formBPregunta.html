@@ -1,0 +1,66 @@
+<!--<ul id="slide-out" class="side-nav">
+    <li><div class="userView">
+      <a href="#!user"><img class=""  style="width: 100%;" src="img/logo-handlom.jpg"></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>Ver preguntas</a></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>Gestionar preguntas</a></li>
+    <li><div class="divider"></div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>Cerrar sesión</a></li>
+
+  </ul> -->
+    <a  data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+</div>
+<div style="width: 80%;margin: 10% 10% 10% 10%;">
+  <div class="row" >
+  <h2>Gestionar pregunta</h2>
+  	<form>
+  	  <div class="input-field col s9">
+  		  <select id ="tematica" class="browser-default" ng-model="objPregunta.tema ">
+  		    <option value="" disabled selected>Selecciona el tema</option>
+  		    <option ng-repeat="tem in objBDTematica" value="{{tem.tema}}">{{tem.tema}}</option>
+  		  </select>                  
+  	  </div>
+      <div class="input-field col s3">
+        <a href="#modalCat" class="btn-floating btn-large waves-effect waves-light red modal-trigger"><i class="material-icons">add</i></a>         
+      </div>
+          <div class="input-field col s12">
+            <input id="pregunta"  ng-model="objPregunta.enunciado" type="text" class="validate">
+            <label for="pregunta">Pregunta(Enunciado):</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="respuesta"  ng-model="objPregunta.respuesta " type="text" class="validate">
+            <label for="respuesta">Respuesta:</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="alternativa1"  ng-model="objPregunta.alternativa1 " type="text" class="validate">
+            <label for="alternativa1">Alternativa A:</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="alternativa2"  ng-model="objPregunta.alternativa2 " type="text" class="validate">
+            <label for="alternativa2">Alternativa B:</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="alternativa3"  ng-model="objPregunta.alternativa3 " type="text" class="validate">
+            <label for="alternativa3">Alternativa C:</label>
+          </div>
+          <div class="input-field col s12">
+            <input id="alternativa4"  ng-model="objPregunta.alternativa4 " type="text" class="validate">
+            <label for="alternativa4">Alternativa D(Opcional):</label>
+          </div>
+          <a ng-click="agregarPregunta(objPregunta)" class="waves-effect waves-light btn">button</a>
+  	</form>
+  </div class="row">
+    <div id="modalCat" class="modal">
+      <div class="modal-content">
+        <h4>Agregar Categoria</h4>
+        <p>Ingresa el nombre de la nueva categoria</p>
+      </div>    
+          <div style="width:80%;margin: 0% 0% 0% 3.5%;" class="input-field col">
+            <input id="tema"  ng-model="objTematica.tema" type="text" class="validate">
+            <label for="tema">Nombre del tema:</label>
+          </div>
+          <div class="modal-footer">
+          <button ng-click="registrarCat(objTematica)" class=" modal-action modal-close waves-effect waves-green btn-flat">Aceptar</button>
+        </div>
+    </div>
+</div>

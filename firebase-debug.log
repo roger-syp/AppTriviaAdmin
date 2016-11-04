@@ -1,0 +1,102 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\RCanchanyaG\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     win32
+[debug] Node Version: v4.4.7
+[debug] Time:         Tue Oct 04 2016 10:15:41 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\RCanchanyaG\Desktop\AppTrivia-Admin
+[warn] !  Port 5000 is not available. Trying another port...
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5001
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\RCanchanyaG\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     win32
+[debug] Node Version: v4.4.7
+[debug] Time:         Wed Oct 12 2016 09:16:12 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\RCanchanyaG\Desktop\AppTrivia-Admin
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\RCanchanyaG\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     win32
+[debug] Node Version: v4.4.7
+[debug] Time:         Wed Oct 12 2016 09:18:50 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\RCanchanyaG\Desktop\AppTrivia-Admin
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\RCanchanyaG\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     win32
+[debug] Node Version: v4.4.7
+[debug] Time:         Fri Oct 28 2016 15:55:54 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\RCanchanyaG\Desktop\AppTrivia-Admin
+[warn] !  Port 5000 is not available. Trying another port...
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5001
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\RCanchanyaG\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     win32
+[debug] Node Version: v4.4.7
+[debug] Time:         Mon Oct 31 2016 08:42:29 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\RCanchanyaG\Desktop\AppTrivia-Admin
+[warn] !  Port 5000 is not available. Trying another port...
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5001
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\RCanchanyaG\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     win32
+[debug] Node Version: v4.4.7
+[debug] Time:         Wed Nov 02 2016 08:54:06 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\RCanchanyaG\Desktop\AppTrivia-Admin
+[warn] !  Port 5000 is not available. Trying another port...
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5001
+[debug] ----------------------------------------------------------------------
+[debug] Command:      C:\Program Files\nodejs\node.exe C:\Users\RCanchanyaG\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     win32
+[debug] Node Version: v4.4.7
+[debug] Time:         Fri Nov 04 2016 14:04:02 GMT-0500 (Hora est. Pacífico, Sudamérica)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: C:\Users\RCanchanyaG\Desktop\AppTrivia-Admin
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
