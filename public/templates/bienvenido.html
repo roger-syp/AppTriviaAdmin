@@ -1,22 +1,33 @@
-<h4>Bienvenido al administrador del banco de preguntas de la Trivia.</h4>
+<ul>
+  <li><p class="" style="color: white;">&nbsp;&nbsp;&nbsp;Handlom&nbsp;&nbsp;&nbsp;</p></li>
+  <li><a class="{{itemBienvenido}}" href="#bienvenido">Ver preguntas</a></li>
+  <li><a class="{{itemGP}}" href="#formPreguntas">Gestionar preguntas</a></li>
+  <li class="right"><a href="" ng-click="cerrarSesion()">Cerrar sesion</a></li>
+</ul>
+<div style="width: 80%;margin: 0% 0% 10% 10%;">
+<h5>Bienvenido al administrador del banco de preguntas de la Trivia.</h5>
 <h3></h3>
-<div class="row">
-	<table>
-        <thead>
-          <tr>
-              <th data-field="id">Tematica</th>
-              <th data-field="name">Pregunta</th>
-              <th data-field="price">Respuesta</th>
-          </tr>
-        </thead>
+  <div class="row">
+  	<table style="width: 100%;">
+          <thead>
+            <tr>
+                <th data-field="id">Tematica</th>
+                <th data-field="name">Pregunta</th>
+                <th data-field="price">Respuesta</th>
+                <th data-field="price">Editar</th>
+                <th data-field="price">Eliminar</th>
+            </tr>
+          </thead>
 
-        <tbody ng-repeat="pre in objBDPregunta">
-          <tr>
-            <td>{{pre.tema}}</td>
-            <td>{{pre.enunciado}}</td>
-            <td>{{pre.respuesta}}</td>
-          </tr>
-        </tbody>
-      </table>
+          <tbody ng-repeat="pre in objBDPregunta">
+            <tr>
+              <td width="10%">{{pre.tema}}</td>
+              <td width="50%">{{pre.enunciado}}</td>
+              <td width="30%">{{pre.respuesta}}</td>
+              <td width="5%"><a href="#/editarPregunta/{{pre.$id}}"><i class="material-icons" >mode_edit</i></a></td>
+              <td width="5%"><a href=""><i class="material-icons" ng-click="eliminarPregunta(pre)">delete</i></a></td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
 </div>
-<a href="#/formPreguntas">Ir a preguntas</a>

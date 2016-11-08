@@ -6,14 +6,12 @@ app.controller("generalCtrl", function($scope, $location, $timeout){
 	});
 
 	$(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
-  });
+    	// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    	$('.modal-trigger').leanModal();
+  	});
 
 	 $(document).ready(function(){
 	    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
 	    $(".button-collapse").sideNav();
-  });
-        
-
+  	});
 });

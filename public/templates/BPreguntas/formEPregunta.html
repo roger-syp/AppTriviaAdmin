@@ -9,11 +9,11 @@
 
   <div class="row" >
 
-    <h2 class="col s11" style="font-size: 1.75em;">Agregar pregunta</h2>
+    <h2 class="col s11" style="font-size: 1.75em;">Editar pregunta</h2>
 
   	<form>
   	  <div class="input-field col s9">
-  		  <select id ="tematica" class="browser-default" ng-model="objPregunta.tema ">
+  		  <select id ="tematica" class="browser-default" ng-model="objPSeleccionada.tema ">
   		    <option value="" disabled selected>Selecciona el tema</option>
   		    <option ng-repeat="tem in objBDTematica" value="{{tem.tema}}">{{tem.tema}}</option>
   		  </select>                  
@@ -21,31 +21,31 @@
       <div class="input-field col s3">
         <a href="#modalCat" class="btn-floating btn-large waves-effect waves-light red modal-trigger"><i class="material-icons">add</i></a>         
       </div>
-          <div class="input-field col s12">
-            <input id="pregunta"  ng-model="objPregunta.enunciado" type="text" class="validate">
-            <label for="pregunta">Pregunta(Enunciado):</label>
+          <div class="col s12">
+          <label for="">Pregunta(Enunciado):</label>
+            <input id="pregunta"  ng-model="objPSeleccionada.enunciado" type="text" class="validate">            
           </div>
-          <div class="input-field col s12">
-            <input id="respuesta"  ng-model="objPregunta.respuesta " type="text" class="validate">
+          <div class="col s12">
             <label for="respuesta">Respuesta:</label>
+            <input id="respuesta"  ng-model="objPSeleccionada.respuesta " type="text" class="validate">            
           </div>
-          <div class="input-field col s12">
-            <input id="alternativa1"  ng-model="objPregunta.alternativa1 " type="text" class="validate">
+          <div class="col s12">
             <label for="alternativa1">Alternativa A:</label>
+            <input id="alternativa1"  ng-model="objPSeleccionada.alternativa1 " type="text" class="validate">            
           </div>
-          <div class="input-field col s12">
-            <input id="alternativa2"  ng-model="objPregunta.alternativa2 " type="text" class="validate">
+          <div class="col s12">
             <label for="alternativa2">Alternativa B:</label>
+            <input id="alternativa2"  ng-model="objPSeleccionada.alternativa2 " type="text" class="validate">            
           </div>
-          <div class="input-field col s12">
-            <input id="alternativa3"  ng-model="objPregunta.alternativa3 " type="text" class="validate">
+          <div class="col s12">
             <label for="alternativa3">Alternativa C:</label>
+            <input id="alternativa3"  ng-model="objPSeleccionada.alternativa3 " type="text" class="validate">            
           </div>
-          <div class="input-field col s12">
-            <input id="alternativa4"  ng-model="objPregunta.alternativa4 " type="text" class="validate">
+          <div class="col s12">
             <label for="alternativa4">Alternativa D(Opcional):</label>
+            <input id="alternativa4"  ng-model="objPSeleccionada.alternativa4 " type="text" class="validate">           
           </div>
-          <a ng-click="agregarPregunta(objPregunta)" class="waves-effect waves-light btn right">Aceptar</a>
+          <a ng-click="editarPregunta(objPSeleccionada)" class="waves-effect waves-light btn right">Aceptar</a>
   	</form>
   </div class="row">
     <div id="modalCat" class="modal">
@@ -58,7 +58,7 @@
             <label for="tema">Nombre del tema:</label>
           </div>
           <div class="modal-footer">
-          <button ng-click="registrarCat(objTematica)" class=" modal-action modal-close waves-effect waves-green btn-flat">Agregar</button>
+          <button ng-click="registrarCat(objTematica)" class=" modal-action modal-close waves-effect waves-green btn-flat">Editar</button>
         </div>
     </div>
 </div>

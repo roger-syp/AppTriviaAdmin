@@ -35,7 +35,8 @@ app.controller("sesionController", function($scope, $location){
 	};
 	firebase.auth().onAuthStateChanged(function(user) {
 	  if (user) {
-	    window.location.href='#/bienvenido';
+	    //window.location.href='/bienvenido';
+	    window.location.href='#bienvenido';
 	  } else {
 	    //window.location.href='/';
 	  }

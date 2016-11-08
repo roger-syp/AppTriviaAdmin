@@ -19,6 +19,10 @@ var app = angular.module("appRootTrivia", [
 			templateUrl: 'templates/BPreguntas/formBPregunta.html',
 			controller:'preguntasController'
 		})
+		.when('/editarPregunta/:idPregunta', {
+			templateUrl: 'templates/BPreguntas/formEPregunta.html',
+			controller:'preguntasController'
+		})
 		.otherwise({
 			redirectTo: '/'
 		});
